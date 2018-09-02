@@ -5,6 +5,7 @@
 /*===========Seletores==========*/
 html, body, .capa{
 	height: 100%;
+	overflow: auto;
 
 }
 
@@ -158,5 +159,17 @@ h3{
 	color: #7c25f8;
 }
 #recursos h3{
-	color:#9bf0e1;
+color:#9bf0e1;
+}
+
+/*=====================Media queries==================*/
+@media screen and (max-width: 767px){
+	h1{
+	font-size:70px;
+	font-weight: 900;
+	}
+
+	.btn-custom{
+		margin: 5px 10px;
+	}
 }
